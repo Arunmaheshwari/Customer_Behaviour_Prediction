@@ -27,6 +27,10 @@ if i want to run use zenml so i need...
 
    pip install "zenml[server]" 
 
+and then
+   
+   zenml init  
+
 after installing, now i want to run my pipeline, i will use this....
    
    python run_pipeline.py      
