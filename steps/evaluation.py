@@ -17,7 +17,7 @@ experiment_tracker = Client().active_stack.experiment_tracker
 from typing import Tuple
 
 
-@step(experiment_tracker=experiment_tracker.name)
+@step()
 def evaluation(
     model: RegressorMixin, x_test: pd.DataFrame, y_test: pd.Series
 ) -> Tuple[Annotated[float, "r2_score"], Annotated[float, "rmse"]]:
