@@ -41,3 +41,15 @@ and then i also need to run this command as well...
 
 this command will ensure that zenml will also run in my system as well.
 typically zenml does not run on window system, that's why we are using blocking.
+
+
+
+If i want to see my model and everything in mlflow, so i have to use these command...
+'''bash
+           python run_pipeline.py
+
+from this command i will be getting url and then i need to run this command with this url
+           
+            mlflow ui --backend-store-uri "file:C:\Users\Hare Krishna\AppData\Roaming\zenml\local_stores\941ab80c-7c9b-408b-beb3-d0132f0adaf2\mlruns"
+
+whatever i have inside this "" is the url.
